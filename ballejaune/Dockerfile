@@ -1,12 +1,9 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
-
-WORKDIR /data
+FROM eclipse-temurin:17-jdk-alpine
 
 COPY ballejaune.jar app.jar
 
-COPY run.sh /
+COPY run.sh run.sh
 RUN chmod a+x /run.sh
 
-CMD [ "/run.sh" ] 
+CMD [ "sh", "run.sh" ] 
 
