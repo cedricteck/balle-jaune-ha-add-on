@@ -1,7 +1,7 @@
 {
-  "name": "Tennis Booking",
+  "name": "Balle Jaune",
   "version": "1.0",
-  "slug": "tennis_booking",
+  "slug": "balle_jaune",
   "description": "Réservation tennis",
   "startup": "services",
   "boot": "auto",
