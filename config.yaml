@@ -1,0 +1,8 @@
+name: "Balle Jaune booking"
+description: "Balle Jaune booking app"
+version: "1.0.0"
+slug: "balle_jaune"
+init: false
+arch:
+  - aarch64
+  - amd64
