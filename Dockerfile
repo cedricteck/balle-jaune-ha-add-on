@@ -1,5 +1,4 @@
-ARG ghcr.io/cedricteck/ballejaune:latest
-FROM $BUILD_FROM
+FROM ghcr.io/cedricteck/ballejaune:latest
 
 # Copy data for app
 COPY run.sh /
