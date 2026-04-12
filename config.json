@@ -1,0 +1,12 @@
+{
+  "name": "Tennis Booking",
+  "version": "1.0",
+  "slug": "tennis_booking",
+  "description": "Réservation tennis",
+  "startup": "services",
+  "boot": "auto",
+  "image": "ghcr.io/cedricteck/ballejaune:latest",
+  "ports": {
+    "8080/tcp": 8080
+  }
+}
