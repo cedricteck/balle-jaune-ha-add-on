@@ -1,4 +1,6 @@
-FROM ghcr.io/cedricteck/balle-jaune-ha-add-on:latest
+FROM eclipse-temurin:17-jdk-alpine
+VOLUME /tmp
+COPY ballejaune.jar app.jar
 
 # Copy data for app
 COPY run.sh /
