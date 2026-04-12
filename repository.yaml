@@ -1,3 +1,5 @@
 name: Balle Jaune Add-ons
 url: "https://github.com/cedricteck/balle-jaune-ha-add-on"
 maintainer: Cedric
+addons:
+  - balle_jaune
