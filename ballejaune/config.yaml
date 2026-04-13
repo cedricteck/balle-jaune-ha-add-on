@@ -1,6 +1,6 @@
 name: "Balle Jaune booking"
 description: "Balle Jaune booking app"
-version: "1.0.7"
+version: "1.0.8"
 slug: "balle_jaune"
 init: false
 arch:
