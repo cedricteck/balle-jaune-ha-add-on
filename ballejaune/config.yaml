@@ -9,3 +9,5 @@ arch:
 startup: services
 ports:
   8080/tcp: 8080
+ingress: true
+ingress_port: 8080
